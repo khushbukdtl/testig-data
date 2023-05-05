@@ -1,0 +1,158 @@
+.back-ground
+{
+    background-color: #0685E6;
+}
+.main 
+{
+    padding-top: 50px;
+}
+.main .tab
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 40px;
+    align-items: center;
+    height: 61px;
+}
+.main .tab .tab-center
+{
+    display: flex;
+}
+.main .tab .tab-center .number
+{
+background-color: #85c612;
+color: white;
+height: 25px;
+width: 25px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+}
+
+.main .tab .tab-center .title
+{
+    margin-left: 10px;
+    color: #000000;
+}
+.main .tab .tab-link
+{
+    text-decoration: none;
+    color: #000000;
+}
+.main .tab-contation
+{
+    background-color: white;
+    margin-top: 30px;
+    padding: 30px 30px;
+}
+.main .tab-contation .title
+{
+    color: #000000;
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 41px;
+    width: 62%;
+}
+.checked
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.checked .form-check
+{
+    padding: 0px 23px !important;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 17px #0000001d;
+    border: 1px solid #EAEAEA;
+    border-radius: 13px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    margin: 7px 14px;
+}
+.form-check-input
+{
+    border-radius: 50% !important;
+}
+.form-check-input:checked
+{
+    background-color: #85C612 !important;
+    border-color: #85C612 !important;
+   
+}
+.form-check .form-check-input
+{
+    margin-left: 0em !important;
+}
+.form-check-label
+{
+    padding-right: 20px;
+}
+.imge
+{
+    width: 100%;
+    background-color: #104BB2;
+    padding: 30px;
+
+}
+.overview
+{
+    padding:25px 30px;
+    background-color: #ffffff;
+    height: auto !important
+}
+.btn
+{
+    width: 100% !important;
+    background-color: #85C612 !important;
+    margin-top: 20px !important;
+    border-radius: 0px !important ;
+    color:white !important;
+}
+.Requirements.tab-center::before{
+    content: "";
+    height: 31px;
+    width: 31px;
+    border-bottom: 2px solid #0685E6;
+    border-left: 2px solid #0685E6;
+    transform: rotate(223deg);
+    margin-top: -4px;
+    margin-right: 20px;
+ }
+ .Solution.tab-center::before
+ {
+    content: "";
+    height: 31px;
+    width: 31px;
+    border-bottom: 2px solid #0685E6;
+    border-left: 2px solid #0685E6;
+    transform: rotate(223deg);
+    margin-top: -4px;
+    margin-right: 20px;
+ }
+ .form-check-input:checked[type=checkbox]
+ {
+    background-color: #ccd7c2 !important;
+}
+ 
+.form-check-input:focus
+{
+    box-shadow: none;
+}
+
+.form-lable
+{
+    font: normal normal normal 13px/32px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.opecity
+{
+    opacity: 1 !important;
+    pointer-events: visible !important;
+}

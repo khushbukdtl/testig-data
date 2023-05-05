@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  
+</body>
+<script>
+    // class manger
+    // {
+    //     constructor(name)
+    
+    //     {
+    //         console.log( "manger name " + name);
+    //        this.fname =name;
+    //     }
+    //     show_name()
+    //     {
+    //             return " manger name is  " + this.fname +"<br>";
+    //     }
+    // }
+    
+
+    // class employee extends manger
+    // {
+    //     constructor(name)
+    //     {
+    //         super(name);
+    //         console.log( "employee name "+ name );
+    //     }
+    //     show_names()
+    //     {
+    //             return " my name is "+ name;
+    //     }
+    // }
+
+    // var bb= new employee("khushbu");
+    // document.write(bb.show_name());
+    // document.write(bb.show_names());
+
+class manger
+{
+      constructor (names,ages,salary)
+      {
+        this.name = names;
+        this.ages = ages;
+        this.salary = salary;
+         // this.fname =name;
+         console.log("manger constructor");
+         document.write("my name is:" + this.name + "<br>" + "age: " + this.ages + "<br>"  + "salary: "+ this.salary + "<br>");
+      }
+      info()
+        {
+            document.write("<h1>manger details</h1>");
+                document.write("my name is:" + this.name + "<br>" + "age: " + this.ages + "<br>"  + "salary: "+ this.salary + "<br>");
+        }
+}
+
+// class employee extends manger
+// {
+//     info()
+//         {
+//             var pr = 200;
+//             var hh= 500;
+//             var cc = pr+hh+ this.salary;
+//             this.jj = cc;
+            
+//             document.write( "<br>"+ "<br>"+"<h1>employee details</h1>");
+//                 document.write("my name is: " + this.name + "<br>" + "age: " + this.ages + "<br>"  + "salary: "+  this.jj );
+//         }
+// }
+
+// class test extends employee
+// {
+
+// }
+
+//var cc= new test("khushbu", 25 , 10000);
+var cc= new manger("khushbu", 25 , 10000);
+var cc= new manger("nirali", 21 , 10000);
+var cc= new manger("janvui", 21 , 10000);
+// cc.info();
+// dd.info();
+
+</script>
+</html>
